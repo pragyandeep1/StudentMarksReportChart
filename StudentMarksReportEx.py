@@ -18,7 +18,7 @@ while res is True:
     # Validating the Roll Number
     while True:
         try:
-            sno = int(input('Enter Student Roll Number: '))
+            sno = int(input('Enter Student Roll Number (Between 100 and 200): '))
             if sno in range(100, 201):
                 break
             else:
